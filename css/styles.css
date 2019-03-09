@@ -1,0 +1,273 @@
+/* icomooon */
+@font-face {
+   font-family: 'icomoon';
+   src:  url('../fonts/icomoon.eot?jqqlkz');
+   src:  url('../fonts/icomoon.eot?jqqlkz#iefix') format('embedded-opentype'),
+     url('../fonts/icomoon.ttf?jqqlkz') format('truetype'),
+     url('../fonts/icomoon.woff?jqqlkz') format('woff'),
+     url('../fonts/icomoon.svg?jqqlkz#icomoon') format('svg');
+   font-weight: normal;
+   font-style: normal;
+ }
+ 
+ [class^="icon-"], [class*=" icon-"] {
+   /* use !important to prevent issues with browser extensions that change fonts */
+   font-family: 'icomoon' !important;
+   speak: none;
+   font-style: normal;
+   font-weight: normal;
+   font-variant: normal;
+   text-transform: none;
+   line-height: 1;
+ 
+   /* Better Font Rendering =========== */
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+ }
+ 
+ .icon-twitter:before {
+   content: "\e900";
+ }
+ .icon-facebook:before {
+   content: "\ea91";
+ }
+ .icon-whatsapp:before {
+   content: "\ea93";
+ }
+ 
+ /* fin del documento icomoon */
+ 
+
+body{
+   color: #1F2732;
+}
+h1{
+   font-size: 2.3em; 
+   letter-spacing: .01em;
+}
+h2{
+   padding: 15px;
+   font-size: 1.4em;
+   letter-spacing: .3em;
+   font-weight: 700;
+}
+h4{
+   font-size: 1.7em;
+   letter-spacing: .01em;
+   font-weight: 400;
+}
+#hero{
+   background-color: #42c0fb;
+}
+#hero h1{
+   font-weight: 800;
+   text-align: left;
+   color: #006287;
+}
+#hero h4{
+   text-align: left;
+   font-weight: 600;
+   font-size: 1.5em;
+   color: #006287;
+}
+#hero ul{
+   list-style:none;
+   text-align: left;
+   font-size: 1.2em;
+
+}
+#hero ul li{
+   list-style-image: url(../img/check.png);
+}
+.title-contac {
+   background-color: rgba(255, 255, 255, .95);
+}
+
+#footer a{
+   font-size: 1.2em;
+   margin: 0 8px;
+}
+a:hover{
+   text-decoration: none;
+}
+.clip {
+   -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%);
+   clip-path: polygon(0% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%);
+   border-radius: 3px;
+}
+.navbar{
+   background: rgba(255, 255, 255, .95);
+   border-bottom: 4px solid rgba(130, 130, 130, .08);
+}
+.margin{
+   margin-bottom: 100px;
+}
+.whatsapp-icon{
+   position: absolute;
+   right: 0;
+   position: fixed;
+   top: 40%;
+   z-index: 200;
+   background-color: rgba(0,0,0,.5);
+   padding: 4px 0;
+   border-radius: 10px 0 0 10px;
+   text-align: center;
+}
+.whatsapp-icon img{
+   max-width: 80%;
+}
+.overlay {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-color: rgba(0,0,0,.6);
+   color: #ffffff;
+   z-index: 10;
+}
+
+.overlay .container{
+   height: 100%;
+}
+
+.overlay .row{
+   height: 100%;
+}
+
+.call-to-action span{
+   font-size: 2.2em;
+   letter-spacing: .01em;
+}
+.call-to-action img{
+   vertical-align: top;
+}
+#services img {
+   max-width: 40%;
+}
+
+.card{
+   transition: all .5s;
+}
+.card:hover{
+   transition: all .5s;
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.18)!important;
+}
+
+.services img {
+   max-width: 50%;
+}
+
+.label{
+   font-size: 1.3em;
+   letter-spacing: .1em;
+   font-weight: 600;
+}
+.btn-primary{
+   background: #0981CD;
+   font-weight: 600;
+   letter-spacing: 0.1em;
+   font-size: 1.15em;
+}
+
+#footer{
+   -webkit-clip-path: polygon(0% 0%, 50% 21%, 100% 0, 100% 100%, 0% 100%);
+   clip-path: polygon(0% 0%, 50% 21%, 100% 0, 100% 100%, 0% 100%);
+   background-color: #1F2732;
+   color: #fff;  
+   overflow: hidden; 
+}
+
+#footer .logo{
+   margin-top: 110px;
+}
+#copy{
+   background-color: #0981CD;
+}
+
+@media (max-width: 768px)
+{
+   h1{
+      font-size: 2.5em;
+   }
+   h3{
+      font-size: 1.3em;
+   }
+   h4{
+      font-size: 1.5em;
+   }
+   #hero h1{
+      text-align: center;
+   }
+   #hero h4{
+      text-align: center;
+   }
+   .call-to-action span{
+      font-size: 1.5em;
+   }
+   #services img {
+      max-width: 35%;
+   }
+   .clip {
+      -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 98%, 50% 100%, 0 98%);
+      clip-path: polygon         (0% 0%, 100% 0, 98% 100%, 50% 100%, 0 98%);
+      border-radius: 3px;
+   }
+   .margin{
+      margin-bottom: 45px;
+   }
+
+   #footer{
+      -webkit-clip-path: polygon(0% 0%, 50% 15%, 100% 0, 100% 100%, 0% 100%);
+      clip-path: polygon        (0% 0%, 50% 15%, 100% 0, 100% 100%, 0% 100%);
+      background-color: #1F2732;
+   }
+
+   #footer .logo{
+      margin-top: 70px;
+   }
+  
+}
+
+@media (max-width: 540px)
+{
+   h1{
+      font-size: 1.9em;
+      font-weight: 500;
+   }
+   h4{
+      font-size: 1em;
+   }
+   .call-to-action span{
+      font-size: 1.4em;
+   }
+   .overlay .copy{
+      display: none;
+   }  
+   .clip {
+      -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 98%, 50% 100%, 0 98%);
+      clip-path: polygon         (0% 0%, 100% 0, 98% 100%, 50% 100%, 0 98%);
+      border-radius: 3px;
+   }
+   #footer{
+      -webkit-clip-path: polygon(0% 0%, 50% 10%, 100% 0, 100% 100%, 0% 100%);
+      clip-path: polygon        (0% 0%, 50% 10%, 100% 0, 100% 100%, 0% 100%);
+      background-color: #1F2732;
+   }
+
+   #footer .logo{
+      margin-top: 70px;
+   }
+
+   .whatsapp-icon{
+      position: absolute;
+      padding: 3px;
+      right: 0;
+      top: 75%;
+      border: 1px solid rgba(0, 0, 0, .2);
+   
+   }
+   .whatsapp-icon img{
+      max-width: 70%;
+   }
+}
