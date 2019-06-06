@@ -1,0 +1,616 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: orbitron;
+	src: url(../fuentes/Orbitron-Regular.ttf);	
+}
+
+body{
+	background: #252525;
+}
+.fondo{
+	width: 100%;
+	height: 680px;
+	filter: brightness(.8);
+}
+.cabecera{
+	width: 100%;
+	height: 70px;
+	background: rgba(0,0,0,0.25);
+	border-top: 1px solid rgba(212,212,212,0.38);
+	border-bottom: 1px solid rgba(212,212,212,0.38);
+	position: absolute;
+	top: 60px;	
+	z-index: 10;
+	
+}
+.cabeceraFixed{
+	position: fixed;
+	top: 0;
+	z-index: 10;	
+}
+.anchoCabecera{
+	width: 90%;
+	height: 70px;
+	margin: auto;	
+	
+}
+.logo{
+	float: left;
+	width: 20%;
+	height: 70px;	
+}
+.logo a{
+	text-transform: uppercase;
+	font-family: orbitron;
+	text-decoration: none;
+	color: #fff;
+	padding: 20px 10px;
+	display: inline-block;
+	letter-spacing: 2px;	
+	font-size: 27px;
+	font-weight: bold;
+	
+}
+.navegacionPrincipal{
+	width: 80%;
+	height: 70px;
+	float: left;
+	text-align: right;
+	
+}
+.navegacionPrincipal .menuItem{
+	
+	text-decoration: none;
+	color: #fafafa;	
+	padding: 20px 10px;	
+	text-transform: uppercase;	
+	position: relative;
+	top: 36%;
+	transition: all .3s ease-in;
+	letter-spacing: 1px;
+	font-family: orbitron;	
+	
+}
+
+.boton{
+	width: 150px;
+	background-color: rgba(126,3,5,0.8);	
+	transition: all .3s ease-in;		
+	text-transform: uppercase;
+	text-align: center;
+	padding: 15px 30px;	
+	letter-spacing: 3px;	
+	border-radius: 5px;	
+    font-weight: bold;
+	margin: auto;
+	cursor: pointer;
+}
+.boton a{
+	color: #fff;
+	text-decoration: none;
+	font-family: orbitron;
+	transition: all .3s ease-in;
+}
+.boton:hover{
+	background-color: rgba(105,2,4,1.00);	
+	transition: all .3s ease-in;
+	
+}
+
+video{
+	filter: brightness(.3);
+	width: 100%;
+	height: 760px;
+	margin-bottom: 5px;
+}
+.contenedor{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	top: 130px;
+	z-index: 5;
+}
+.contenedor .seccion{
+	width: 70%;
+	margin: auto;
+}
+.contenedor .contenedorBotones{
+	width: 60%;	
+	text-align: left;
+	margin: auto;
+	height: 70px;
+	
+}
+.izquierda{	
+	float: left;
+}
+.derecha {
+	float: right;
+}
+
+.contenedor .logo2{
+	filter: brightness(.8);	
+	margin-bottom: 20px;
+	width: 363px;
+	height: 169px;
+}
+.contenedor .tituloBanner{
+	text-transform: uppercase;
+	color: #fff;
+	font-family: orbitron;
+	margin-bottom: 90px;
+	letter-spacing: 2px;
+	font-size: 35px;
+}
+.contenedorTotal{
+	width: 85%;
+	margin: auto;
+}
+.encabezadoSeccion{
+	margin-top: 40px;
+	text-align: center;
+}
+.encabezadoSeccion h3{
+	font-family: orbitron;
+	font-size: 40px;
+	letter-spacing: 2px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+	font-weight: bold;
+	border-bottom: 1px solid #fff;
+	
+}
+.encabezadoSeccion p{
+	font-family: orbitron;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	
+}
+.columnasx3{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+.columnasx3 .noticia{
+	width: 33.33%;	
+	float: left;
+	padding: 10px;
+	overflow: hidden;
+	
+}
+
+.columnasx3 .noticia img{
+	width: 100%;
+	height: auto;
+	border-radius: 7px;
+	filter: brightness(.6);
+	transition: all .2s ease-in;
+}
+
+.columnasx3 .noticia span{	
+	color:#fff;
+	font-family: orbitron;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	top: -65px;
+	margin-left: 10px;
+	transition: all .2s ease-in;
+	letter-spacing: 1px;
+}
+.columnasx3 .noticia:hover img{
+	transition: all .1s linear;
+	filter: brightness(.7);
+}
+.columnasx3 .noticia:hover span{
+	letter-spacing: 2.5px;
+	transition: all .2s ease-in;
+
+}
+.banner{
+	margin-top: 40px;
+	background-image: url(../img/desierto.jpg);
+	float: left;
+	width: 100%;
+	height: 680px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	filter: brightness(.8);
+	text-align: center;
+	margin-bottom: 40px;
+}
+.banner .contenedorBanner{
+	width: 70%;
+	margin: auto;
+	position: relative;
+	top: 15%;
+}
+.banner .contenedorBanner h3{
+	font-family: orbitron;
+	font-weight: bold;
+	color: #fff;
+	letter-spacing: 2px;
+	font-size: 35px;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+.banner .contenedorBanner p{
+	font-family: orbitron;
+	color: #FFF;
+	letter-spacing: 1px;
+	line-height: 200%;
+	font-size: 17px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+.contenedorTotal img{
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+	filter: brightness(.8);
+	margin-bottom: 1%;	
+}
+ .columnasx2{
+	width: 100%;
+    height: 300px;
+	margin: auto;
+}
+.columnasx2 .principal{
+	width: 59%;	
+	float: left;
+	
+}
+.columnasx2 .secundaria{
+	width: 39%;
+	float: right;
+}
+.columnasx2 .rutas img{
+	max-width: 100%;
+	height: 300px;
+	filter: brightness(.8);
+}
+footer{
+	margin-top: 40px;
+	padding-top: 20px;
+	width: 100%;
+	height: 200px;
+	background-color:rgba(171, 171, 171,.8);
+	border-top: 2px solid #000;
+}
+.irArriba{	
+	padding: 3px;
+	border: 2px solid #333;
+	font-size: 1.2em;
+	float: right;
+	margin-top: 10px;
+	margin-right: 25px;
+	border-radius: 20%;
+	cursor: pointer;
+	transition: all .3s ease-in;
+}
+.irArriba:hover{
+	background-color:#fff;
+	transition: all .3s ease-in;
+}
+footer .sociales{	
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	padding: 15px 0;
+}
+.sociales a{
+	font-size: 40px;
+	position: relative;   
+	text-decoration: none;
+	color: #303030;	
+	display: inline-block;		
+	margin: 0 10px;
+	transition: all .1s linear;
+
+}
+.sociales a:hover{
+	position: relative;		
+	transform: translateY(-7%);
+	transition: all .15s ease-in-out;
+}
+.enlaces{
+  text-align: center;
+  padding: 30px 0;
+}
+.enlaces a{
+	font-size: 15px;
+	text-decoration: none;
+	color: #252525;
+	text-transform: uppercase;
+	font-family: orbitron;
+	font-weight: bold;
+	letter-spacing: 1px;
+	transition: all .3s ease-in;
+	padding: 0 10px ;
+}
+.enlaces a:hover{
+	color: #fff;
+	transition: all .3s ease-in;
+}
+
+@media (max-width: 992px) {
+	.contenedorTotal{
+		width: 80%;
+	}
+	.logo a{
+		
+		font-size: 25px;
+	}
+	
+	.navegacionPrincipal .menuItem{
+		
+		font-size: 14px;
+	}
+	
+	.boton{
+		
+		width: 120px;			
+		font-size: 14px;
+		padding: 15px 15px;	
+		
+	}
+	
+	.contenedor .logo2{	
+		
+		width: 333px;
+		height: 139px;
+		
+	}
+	
+	.contenedor .tituloBanner{
+		
+		margin-bottom: 90px;
+		letter-spacing: 2px;
+		font-size: 30px;
+		
+	}
+	
+	.encabezadoSeccion h3 {
+		
+		font-size: 35px;
+	}
+	.encabezadoSeccion p {
+		font-size: 14px;
+	}
+		
+	.columnasx3 .noticia{
+		
+		padding: 7px;
+	}
+	.banner{
+		margin-top: 0;
+	}
+	
+	.columnasx2 {
+		height: 240px;
+	}
+	
+	.columnasx2 .rutas img{
+		height: 240px;
+	}
+}
+
+@media  (max-width : 768px) {
+	
+	.cabecera{
+		height: 55px;
+		top: 0;
+	}
+	.logo{
+		display: block;
+		width: 90%;
+		height: 55px;
+		position: relative;
+		
+	}
+	
+	.logo a{
+		padding: 0;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		font-size: 22px;
+	}
+	.lanzarMenu{
+		width: 10%;
+		height: 55px;		
+		float: right;
+		cursor: pointer;
+	}
+	
+	.lanzarMenu span {
+  	margin-top: 23px;		
+	}
+	
+	.lanzarMenu span, .lanzarMenu span:before, .lanzarMenu span:after {
+	  cursor: pointer;
+	  border-radius: 3px;
+	  height: 4px;
+	  width: 30px;
+	  background: #fff;
+	  position: absolute;
+	  display: block;
+	  content: '';
+	   -webkit-transition: all 500ms cubic-bezier(0.615, 0.25, 0.505, 1.47);
+	  -moz-transition: all 500ms cubic-bezier(0.615, 0.25, 0.505, 1.47);
+	  transition: all 500ms cubic-bezier(0.615, 0.25, 0.505, 1.47);
+	}
+
+	.lanzarMenu span:before {
+	  top: -10px;
+	}
+	.lanzarMenu span:after {
+	  bottom: -10px;
+	}
+
+	.lanzarMenu.active span {
+	  background-color: transparent;
+	}
+	
+	.lanzarMenu.active span:before, .lanzarMenu.active span:after {
+	  top: 0;
+	}
+	
+	.lanzarMenu.active span:before {
+		
+	  -webkit-transform: rotate(45deg) scale(1.2);
+	  -moz-transform: rotate(45deg) scale(1.2);
+	  -ms-transform: rotate(45deg) scale(1.2);
+	  -o-transform: rotate(45deg) scale(1.2);
+	  transform: rotate(45deg) scale(1.2);
+	}
+	
+	.lanzarMenu.active span:after {
+		
+	  -webkit-transform: rotate(-45deg) scale(1.2);
+	  -moz-transform: rotate(-45deg) scale(1.2);
+	  -ms-transform: rotate(-45deg) scale(1.2);
+	  -o-transform: rotate(-45deg) scale(1.2);
+	  transform: rotate(-45deg) scale(1.2);
+	}
+	
+	.navegacionPrincipal{		
+		background-color: rgba(0,0,0,0.9);
+		width: 100%;
+		height: auto;		
+		text-align: center;
+		display: none;
+		padding: 10px;
+		border-radius: 5px;
+		float: right;
+	}
+	
+	.navegacionPrincipal .menuItem{
+		display: block;
+	}
+	.columnasx3 .noticia{
+		width: 100%;
+		padding: 10px;
+	}
+	
+	.contenedorTotal {
+
+		width: 75%;
+		margin: auto;
+
+	}
+	
+	.navegacionPrincipal .menuItem{
+		padding: 20px 0;
+		width: 100%;
+	}
+	.contenedor .contenedorBotones{
+		width: 80%;
+	}
+	
+	.columnasx2 {
+		height: 200px;
+	}
+	
+	.columnasx2 .rutas img{
+		height: 200px;
+	}
+	
+}
+@media  (max-width : 576px) {
+	.contenedorTotal{
+		width: 90%;
+	}
+	
+	.contenedor .seccion {
+		
+	width: 80%;
+		
+	}
+	
+	.contenedor .tituloBanner{
+		
+		margin-bottom: 90px;
+		letter-spacing: 2px;
+		font-size: 16px;
+		
+	}
+	
+	
+	.navegacionPrincipal{
+		width: 100%;
+	}
+	.encabezadoSeccion h3{
+		font-size: 20px;
+	}
+	
+	.contenedor .logo2{	
+		
+		width: 283px;
+		height: 89px;
+		margin-bottom: 5px;
+	}
+	
+	.banner .contenedorBanner h3{
+		font-size: 25px;
+	}
+	
+	
+	.banner{
+		margin-top: 20px;
+		
+	}
+	.banner .contenedorBanner p{
+		line-height: 150%;
+	}
+	.boton{		
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	
+	
+	.contenedor .contenedorBotones{		
+		width: 100%;		
+	}
+	
+	.columnasx2 {
+		height: 170px;
+	}
+	
+	.columnasx2 .rutas img{
+		height: 170px;
+	}
+	
+	footer {
+		height: 160px;
+	}
+	.sociales a{
+		font-size: 38px;
+		margin: 0 5px;
+	}
+	.irArriba{
+		display: none;
+	}
+	
+	.enlaces{
+		padding: 10px 30px;
+	}
+	
+	.enlaces a{
+		font-size: 12px;
+		margin: 0 2px;
+	}
+}
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>holmanfotografia</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/index.css">
+	<!-- Favicon -->
+	<link  rel = "apple-touch-icon"  sizes = "57x57"  href = "assets/apple-icon-57x57.png" > 
+	<link  rel = "apple-touch-icon"  sizes = "60x60"  href = "assets/apple -icon-60x60.png " > 
+	<link  rel = " apple-touch-icon "  sizes = " 72x72 "  href = "assets/apple-icon-72x72.png " > 
+	<link  rel = " apple-touch-icon "  sizes = "76x76"  href = "assets/apple-icon-76x76.png" > 
+	<link  rel = "apple-touch-icon "  sizes = " 114x114 "  href = " assets/apple-icon-114x114.png "> 
+	<link  rel = "apple-touch-icon"  sizes = "120x120"  href = "assets/apple-icon-120x120.png" > 
+	<link  rel = "apple-touch-icon"  sizes = "144x144"  href = "assets/ apple-icon-144x144.png " > 
+	<link  rel = " apple-touch-icon "  sizes = " 152x152 "  href = " assets/apple-icon-152x152.png " > 
+	<link  rel = " apple-touch-icon "  tamaños = "180x180"  href = "assets/apple-icon-180x180.png" > 
+	<link  rel = "icon"  type = "image/png"  sizes = "192x192"  href = "assets/android-icon-192x192.png" > 
+	<link  rel = "icon"  type = "image/png"  sizes = "32x32"  href = "assets/favicon-32x32.png" > 
+	<link  rel = "icon"  type = "image/png"  sizes = "96x96"  href = "/assetsfavicon-96x96.png" > 
+	<link  rel = "icon"  type = "image/png"  sizes = "16x16"  href = "assets/favicon-16x16. png " > 
+	<link  rel = " manifest " href = "assets/manifest.json" > 
+	<meta  name ="msapplication-TileColor"  content = "#ffffff" > 
+	<meta  name = "msapplication-TileImage"  content = "/ms-icon-144x144.png" > 
+	<meta  name = "theme-color"  content = "#ffffff" >
+	<!-- Fin favicon -->
+</head>
+<body>
+	<header class="cabecera">
+		<a class="logo" href="index.html"></a>
+		<nav class="navegacion_principal" id="navegacion_principal">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="galeria.html">Fotografía</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		<span class="menu-amburguesa icon-menu1" id="menu-amburguesa"></span>
+	</header>
+	<section>
+		<div class="pantalla_completa">
+			<img  class="pantalla_completa_img" src="img/Homepage1.jpg" alt="homepage">
+			<div class="contenedor">
+				<h2>CONTACTO</h2>
+				<p>Mi número de teléfono es: 312 04113466</p>
+				<form class="formulario" action="php/enviaMensajes.php" method="post">
+	               <input class="campo_texto" type="text"  name="nombre" size="25" required="required" aria-invalid="false" placeholder="Nombre*" value="">
+	              <input class="campo_texto" type="text" name="telefono" size="25" required="required" aria-invalid="false" placeholder="Celular/Whatsapp*" placeholder="TELÉFONO" value="">
+	               <input class="campo_texto"  type="email" name="email" value=""  aria-invalid="false" required="required" placeholder="Email*" size="25">
+	               <textarea class="campo_texto text_area" name="mensaje"  rows="10" cols="35" aria-invalid="false" placeholder="Mensaje:"></textarea>             
+	              <input class="boton" type="submit" value="ENVIAR">
+	            </form>        
+			</div>
+		</div>
+
+		<div class="sociales">
+			<a class="social" href="#">				
+				<i class="icon-facebook"></i>
+			</a>
+			<a class="whatsapp" href="https://api.whatsapp.com/send?phone=573124113466" target="_blank">312 4113466 <i class="icon-whatsapp"></i></a>
+		</div>
+		<span class="copyright">© lake systems 2018</span>
+	</section>
+	
+	<script src="js/index.js"></script>
+</body>
+</html>

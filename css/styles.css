@@ -54,54 +54,99 @@ h4{
    font-weight: 400;
 }
 
+video {
+   width: 270px;
+   border-radius: 22px;
+   margin-bottom: 20px;
+}
+
 .logo {
    font-size: 1.4em;
    margin-bottom: 0;
    font-family: 'Press Start 2P', cursive;
-   color: #000000;
-}
-h1{
-
+   color: #006387;
 }
 #hero{
-   background-color: #282828;
+   background-color: #e2f7ff;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom;
+   /* filter: brightness(50%); */
 }
 #hero h1{
    font-weight: 700;
    text-align: left;
-   color: #ffffff;
+   color: #0078a5;
    letter-spacing: 1.5px;
-   font-size: 3em;
+   font-size: 3.5em;
 }
 #hero span {
-   color: #ffffff;
+   color: #0078a5;
    font-size: 1.5em;
+   font-weight: 600;
 }
 #hero p{
-   color: #ffffff;
    font-size: 1.2em;
    line-height: 1.3em;
-   color: #afafaf;
+   color: #0078a5;
 }
-.btn {
-   background-color: #000000;
-   color: #ffffff;
-   border: 1px solid #700000;
-   font-size: 1.2em;
-   transition: letter-spacing .1s ease-in-out;
+.personal-info {
+   padding: 80px 0;
+   text-shadow: 2px 2px rgba(0, 0, 0, .1);
 }
-.btn:hover {
-   transition: letter-spacing .1s ease-in-out;
-   color: #fafafa;
-   letter-spacing: .1em;
+
+#hero-phone {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   margin-bottom: 50px;
 }
-.title-contact {
-  border: 1px solid #700000;
+#hero-phone h3 {
+   position: absolute;
+   top: 70px;
+   right: 0;
+   font-size: 3.5em;
+   color: #303339;
+   z-index: 400;  
+   padding: 0 10px;
+   background-color: rgba(0, 120, 165, .13);
 }
-.title-contact h2 {
-   color: #ffffff;
-   margin-bottom: 0 !important;
-} 
+#hero #hero-phone h3 span {
+ font-size: 1em;
+}
+.cont-arrow {
+   position: absolute;
+   left: 100px;
+   top: -44px;
+   background: rgba(248, 115, 145, .1);
+   padding: 3px;
+   z-index: 100;
+}
+#hero-phone #arrow{
+   max-width: 25%;
+}
+#hero-phone #woman {
+   position: absolute;
+   left: 50px;
+   top: 155px;
+   max-width: 65%;
+}
+#hero-phone .check-list-img {
+   position: absolute;
+   top: 360px;
+   left: 140px;
+   z-index: 200;
+   width: 70px;
+   height: 70px;
+}
+
+#hero-phone #phone{
+   position: relative;
+   max-width: 40%;
+   z-index: 200;
+}
+
 a:hover{
    text-decoration: none;
 }
@@ -112,7 +157,7 @@ a:hover{
 }
 .navbar{
    background: rgba(255, 255, 255, .95);
-   border-bottom: 4px solid rgba(130, 130, 130, .08);
+   border-bottom: 4px solid #c1c1c1;
 }
 .margin{
    margin-bottom: 100px;
@@ -130,6 +175,15 @@ a:hover{
 }
 .whatsapp-icon img{
    max-width: 80%;
+}
+.title-projects {
+   margin: 90px 0 35px 0;
+   font-size: 2.6em;
+   color: #303339;
+   font-weight: 400;
+}
+.title-projects span {
+   color: #0A7DA8;
 }
 .overlay {
    position: absolute;
@@ -168,7 +222,9 @@ a:hover{
    transition: all .5s;
    box-shadow: 0 .5rem 1rem rgba(0,0,0,.18)!important;
 }
-
+.projects {
+   display: none;
+}
 .projects h2 {
    color: #ffffff;
    background-color: #282828;
@@ -183,27 +239,104 @@ a:hover{
    font-weight: 600;
 }
 
+/* slide */
+.carousel-control-next, .carousel-control-prev {
+   width: 5%;
+}
+
+.carousel-control-prev-icon {
+ background-color: rgba(0, 0, 0, .8);
+ border-radius: 50%;
+}
+
+.carousel-control-next-icon {
+   background-color: rgba(0, 0, 0, .8);
+   border-radius: 50%;
+  }
+
+/* fin slide */
+
+.project-phone {
+   position: relative;
+}
+
+.project-phone .decoration {
+   position: absolute;
+   width: 292px;
+   height: 500px;
+   top: -9px;
+   overflow: hidden;
+   left: 137px;
+}
+
 .footer{
-   -webkit-clip-path:  polygon(0% 30%, 100% 1%, 100% 0, 100% 100%, 0% 100%);
-   clip-path:         polygon(0% 30%, 100% 1%, 100% 0, 100% 100%, 0% 100%);
+   -webkit-clip-path:  polygon(0% 25%, 100% 1%, 100% 0, 100% 100%, 0% 100%);
+   clip-path:         polygon(0% 25%, 100% 1%, 100% 0, 100% 100%, 0% 100%);
    background-color: #282828;
-   color: #fff;  
+   color: #ffffff;  
    overflow: hidden; 
-   height: 90px;
+   margin-top: 70px;
+   padding-top: 80px;
+   letter-spacing: .06em;
+}
+.footer .col {
+   padding-left: 100px;
+}
+.footer .social-icons {
+   margin-top: 20px;
 }
 .footer .icon {
    font-size: 1.2em;
    color: #fafafa;
+   margin-right: 30px;
 }
 .footer .icon:hover {
    color: #b9b9b9;
 }
 
 
+@media (max-width: 1200px){
+   .project-phone .decoration {
+      left: 95px;
+   }
 
+   #hero-phone .check-list-img {
+      top: 300px;
+      left: 120px;
+   }
+   #hero h1 {
+      font-size: 3em;
+   }
 
-.copy{
-   font-size: 1.2em;
+   #hero-phone h3 {
+      font-size: 3.4em;
+   }
+}
+
+@media (max-width: 992px){
+   .project-phone .decoration {
+      left: 35px;
+   }
+
+   #hero-phone .check-list-img {
+      top: 480px;
+      left: 190px;
+   }
+   #hero-phone #woman {
+      top: 200px;
+   }
+   #hero-phone h3 {
+      top: 115px;
+      right: 90px;
+   }
+   .cont-arrow{
+      left: 120px;
+      top: 20px;
+   }
+
+   #hero-phone #phone {
+      margin-top: 10px;
+   }
 }
 
 @media (max-width: 768px)
@@ -216,6 +349,9 @@ a:hover{
    }
    h4{
       font-size: 1.5em;
+   }
+   .project-phone .decoration {
+      left: 120px;
    }
    .call-to-action span{
       font-size: 1.5em;
@@ -235,17 +371,68 @@ a:hover{
    .content {
       margin-top: 30px;
    }
+
+   .projects {
+      display: block;
+   }
+   .slider-projects {
+      display: none;
+   }
+
+   #hero-phone .check-list-img {
+      top: 390px;
+      left: 130px;
+   }
+
+   #hero-phone #phone {
+      max-width: 45%;
+   }
+   .cont-arrow {
+      top: -20px;
+      left: 50px;
+   }
+
+   #hero-phone #arrow {
+      max-width: 22%;
+   }
+
+   #hero-phone h3 {
+      top: 90px;
+   }
+
+   .personal-info {
+      padding: 50px 0;
+   }
   
 }
 
-@media (max-width: 540px)
+@media (max-width: 576px)
 {
-   h1{
-      font-size: 1.9em;
-      font-weight: 500;
+   #hero h1{
+      font-size: 2em;
+   }
+   #hero-phone h3 {
+      font-size: 2.5em;
+      right: 50px;
+      top: 80px;
+   }
+   #hero-phone #woman {
+      top: 150px;
+   }
+   #hero-phone .check-list-img {
+      width: 50px;
+      height: 50px;
+      top: 410px;
+      left: 145px;
+   }
+   .personal-info {
+      padding: 20px 0;
    }
    h4{
       font-size: 1em;
+   }
+   .project-phone .decoration {
+      left: 140px;
    }
    .call-to-action span{
       font-size: 1.4em;
@@ -264,14 +451,25 @@ a:hover{
    }
 
    .whatsapp-icon{
-      position: absolute;
       padding: 3px;
       right: 0;
       top: 75%;
       border: 1px solid rgba(0, 0, 0, .2);
    
    }
+
+   .copy-icons {
+      display: none;
+   }
+
    .whatsapp-icon img{
       max-width: 70%;
+   }
+}
+
+@media (max-width: 425px)
+{
+   .project-phone .decoration {
+      left: 66px;
    }
 }
