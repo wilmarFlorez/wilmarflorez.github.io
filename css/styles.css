@@ -36,7 +36,7 @@
  
 
 body{
-   color: #1F2732;
+   background-color: #ffffff;
 }
 h1{
    font-size: 2.3em; 
@@ -58,6 +58,11 @@ video {
    width: 270px;
    border-radius: 22px;
    margin-bottom: 20px;
+   border: 10px solid #F5F5F5;
+   -webkit-box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.35);
+   -moz-box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.35);
+   box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.35);
+
 }
 
 .logo {
@@ -164,9 +169,9 @@ a:hover{
 }
 .whatsapp-icon{
    position: absolute;
-   right: 0;
+   right: -3px;
    position: fixed;
-   top: 40%;
+   top: 55%;
    z-index: 200;
    background-color: rgba(0,0,0,.5);
    padding: 4px 0;
@@ -244,14 +249,28 @@ a:hover{
    width: 5%;
 }
 
+.carousel-control-prev {
+   left: -50px;
+}
+
+.carousel-control-next {
+   right: -50px;
+}
+
 .carousel-control-prev-icon {
  background-color: rgba(0, 0, 0, .8);
  border-radius: 50%;
+ border: 2px solid #0078A5;
+ width: 30px;
+height: 30px;
 }
 
 .carousel-control-next-icon {
    background-color: rgba(0, 0, 0, .8);
    border-radius: 50%;
+   border: 2px solid #0078A5;
+   width: 30px;
+   height: 30px;
   }
 
 /* fin slide */
@@ -450,10 +469,9 @@ a:hover{
       margin-top: 70px;
    }
 
-   .whatsapp-icon{
-      padding: 3px;
-      right: 0;
-      top: 75%;
+   .whatsapp-icon{      
+      right: -5px;
+      top: 90%;
       border: 1px solid rgba(0, 0, 0, .2);
    
    }
@@ -469,7 +487,10 @@ a:hover{
 
 @media (max-width: 425px)
 {
-   .project-phone .decoration {
-      left: 66px;
+  
+
+   #hero-phone .check-list-img {
+      top: 310px;
+      left: 110px;
    }
 }
