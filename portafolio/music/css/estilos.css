@@ -1,0 +1,311 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: lato,'Open Sans', sans-serif;
+}
+@font-face{
+	font-family: lato;
+	src: url(../fuentes/Lato-Regular.ttf);
+}
+.seccionUno{
+	background: #fff;
+}
+.seccionDos{
+	background-color: #C0C0C0;
+}
+.seccionTres{
+	background-color: #999;
+}
+.seccionCuatro{
+	background-color: #777;
+}
+
+/* Menu
+ * --------------------------------------- */
+
+#menu {
+    position:fixed;
+    top:0;
+    left:0;
+    height: 40px;
+    z-index: 70;
+    width: 100%;
+    padding: 0;
+    margin:0;
+    text-align: center;
+}
+#menu li {
+	display:inline-block;
+	margin-top: 10px;	
+	color: #000;
+	
+	
+}
+
+#menu li a{
+	text-decoration:none;
+	color: #000000;
+	font-family: lato;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: .9em;
+	text-transform: uppercase;
+}
+ #menu li a:hover{
+	color: #B31C1F;
+	transition: all .3s ease-in;
+	letter-spacing: 2px;
+} 
+
+
+#menu li:hover{
+	
+}
+
+#menu li a,
+#menu li a{
+	padding: 9px 18px;
+	display:block;
+}
+#menu li a{
+	color: #444;
+	transition: all .3s ease-in;
+}
+#menu{
+	position:fixed;
+	top:15px;
+	height: 40px;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin:0;
+}
+
+/*fin menu---------------------------*/
+
+.logo{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 20px;
+	left: 45px;
+	z-index: 10;
+}
+.logo a img{
+	max-width: 100%;
+	height: auto;
+}
+.section{
+	padding: 0 50px;
+}
+.columnasx2 {
+	width: 50%;	
+	float: left;	
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+.contenido{
+	padding-top: 80px;
+}
+
+.columnasx2:hover img{
+	
+}
+.imgDestacado {
+
+}
+.imgDestacado img {
+	transition: all 1s ease-in-out;
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	margin-top: 120px;
+
+}
+.imgDestacado:hover img {
+	transform: scale(1.05,1.05);
+	transition: all 1s ease-in-out;
+}
+.columnasx2 h1{
+	font-size: 4em;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	margin-bottom: 20px;
+	font-weight: bold;
+	color: #B31C1F;
+}
+
+
+.columnasx2 p{
+	font-size: 1.5em;
+	line-height: 1em;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.seccionDos{
+	text-align: center;	
+	background-image: url(../img/instrumentos.png);	
+	background-size: cover;
+}
+.seccionDos h2{
+	font-size: 3.5em;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	font-weight: bold;
+	color: #B31C1F;
+}
+.seccionDos p{
+	font-size: 1.5em;
+	line-height: 1em;	
+	text-transform: uppercase;	
+	width: 90%;
+	margin: auto;
+	margin-top: 30px;
+}
+.boton{
+	background-color: #B31C1F;	
+	border-radius: 4px;
+	padding: 10px;
+	margin: 1%;
+	transition: all .3s ease-in;
+}
+.boton a{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 1.5em;
+	text-decoration: none;
+	
+}
+.boton:hover{
+	background-color:  #841416;
+	transition: all .3s ease-in;
+}
+.seccionTres{
+	text-align: center;
+}
+.seccionTres h2{
+	font-size: 3.5em;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	font-weight: bold;
+	color: #B31C1F;
+}
+.seccionTres .columnasx3{
+	margin-top: 40px;
+	width: 100%;	
+}
+.seccionTres .columnasx3 .columna{
+	width: 33.33%;
+	height: 300px;
+	float: left;
+	padding: 10PX;
+	position: relative;
+}
+
+.seccionTres .columnasx3 .columna img{
+	max-width: 100%;
+	height: 100%;
+    opacity: .6;
+	filter:sepia(.8);
+	transition: all .2s ease-in;
+}
+.seccionTres .columnasx3 .columna:hover img{
+	filter: none;
+	transition: all .2s ease-in;
+}
+.columna .fecha{
+	background: #B31C1F;
+	font-size: 1em;
+	padding: 0 4px;
+	text-transform: uppercase;
+	position: absolute;
+	top: 20px;
+	left: 20PX;
+	color: #fff;	
+}
+.columna .tituloEvento{
+	font-size: 1.1em;
+	background: #B31C1F;
+	padding: 0 4px;
+	text-transform: uppercase;
+	position: absolute;
+	top: 40px;
+	left: 20px;
+	color: #fff;
+}
+.columna .boton{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;	
+}
+.columna .boton a{
+	font-size: .8em;	
+}
+
+/*seccion cuatro*/
+
+.columnasx2 h4{
+	text-align: left;
+	color: #B31C1F;
+	text-transform: uppercase;
+	margin-left: 1%;
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+.seccionCuatro .columnasx2{
+	margin-top: 90px;
+}
+.columnasx2.contSociales {
+	margin-top: 110px;
+}
+.columnasx2 form{
+	width: 100%;
+}
+.columnasx2 .caja1{
+	width: 48%;
+	float: left;
+	height: 35px;
+	padding: 5px;
+	margin: 1%;
+	font-size: 1em;
+}
+.columnasx2 .caja2{
+	width: 98%;
+	height: auto;
+	margin: 1%;
+	padding: 10px;
+	font-size: 1em;
+}
+form .boton{
+	margin-top: 10px;	
+}
+form .boton a{
+	font-size: 1em;
+	padding: 5px;	
+}
+.columnasx2 .sociales{
+	width: 40%;
+	float: right;
+}
+.sociales a{
+	display: block;
+	text-decoration: none;
+	font-size: 2.3em;
+	color: #fff;
+	margin: 15px;
+	
+}
+.sociales .nombreicono{
+	display: block;
+	font-size: 1em;
+	color: #B31C1F;
+	text-transform: uppercase;
+}
