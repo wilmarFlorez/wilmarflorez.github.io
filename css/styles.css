@@ -258,19 +258,25 @@ a:hover{
 }
 
 .carousel-control-prev-icon {
- background-color: rgba(0, 0, 0, .8);
+ background-color: rgba(0, 0, 0, .7);
  border-radius: 50%;
- border: 2px solid #0078A5;
+ border: 1px solid #000000;
  width: 30px;
-height: 30px;
+ height: 30px;
+ -webkit-box-shadow: 0px 3px 9px 1px rgba(0,0,0,0.63);
+ -moz-box-shadow: 0px 3px 9px 1px rgba(0,0,0,0.63);
+ box-shadow: 0px 3px 9px 1px rgba(0,0,0,0.63);
 }
 
 .carousel-control-next-icon {
-   background-color: rgba(0, 0, 0, .8);
+   background-color: rgba(0, 0, 0, .7);
    border-radius: 50%;
-   border: 2px solid #0078A5;
+   border: 1px solid #000000;
    width: 30px;
    height: 30px;
+   -webkit-box-shadow: 0px 3px 9px 1px rgba(0,0,0,0.63);
+   -moz-box-shadow: 0px 3px 9px 1px rgba(0,0,0,0.63);
+   box-shadow: 0px 3px 9px 1px rgba(0,0,0,0.63);
   }
 
 /* fin slide */
