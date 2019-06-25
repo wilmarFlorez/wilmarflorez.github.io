@@ -1,0 +1,84 @@
+[33mcommit c6292d6bce7183e77896fd64688d4738b43ad363[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Wilmar Florez <wflorez52@gmail.com>
+Date:   Tue Jun 25 16:23:53 2019 -0500
+
+    added new web project
+
+[33mcommit 757ffa36858beb4291557cf11f3e3779abc28cc3[m
+Author: Wilmar Florez <wflorez52@gmail.com>
+Date:   Tue Jun 25 15:53:42 2019 -0500
+
+    hero, new style
+
+[33mcommit 68085a51221821066581b429d6a4428b8839e43f[m[33m ([m[1;32mlist[m[33m)[m
+Author: Wilmar Florez <wflorez52@gmail.com>
+Date:   Sat Jun 15 16:36:46 2019 -0500
+
+    New style in hero
+
+[33mcommit 57c85b0428ad4c5f28558b36f2a58881c3b0b8cf[m
+Author: Wilmar Florez <wflorez52@gmail.com>
+Date:   Tue Jun 11 12:36:31 2019 -0500
+
+    Added shadow to prev and next control in projects slide
+
+[33mcommit 443e4773375b4fdb5dad62bc43dee767a032415d[m
+Author: Wilmar Florez <wflorez52@gmail.com>
+Date:   Mon Jun 10 17:43:51 2019 -0500
+
+    Added new project web
+
+[33mcommit 771cfb7c1b2c3bd971af1f47bb377e58a8d2f351[m[33m ([m[1;32mnew-style-projects-mobile[m[33m, [m[1;32madd-new-web-project[m[33m)[m
+Author: Wilmar Florez <wflorez52@gmail.com>
+Date:   Sun Jun 9 11:57:00 2019 -0500
+
+    Replaced image decoration in projects by border and shadow
+
+[33mcommit ddcdef0ed74a29261f1721738ae56eb6c87205b5[m[33m ([m[1;32manimation-phone-header[m[33m)[m
+Author: Wilmar Florez <wflorez52@gmail.com>
+Date:   Sun Jun 9 10:56:38 2019 -0500
+
+    Animation of phone in header
+
+[33mcommit 743c6428072df53ebd9d2495c7310e42aad76319[m
+Merge: c14ea8a 7468721
+Author: Wilmar Florez <wflorez52@gmail.com>
+Date:   Wed Jun 5 22:42:26 2019 -0500
+
+    Merge branch 'master' of github.com:wilmarFlorez/portfolio
+
+[33mcommit c14ea8abdc6d04f0a7bbde4e090da941f0e44b6a[m[33m ([m[1;31morigin/version-github[m[33m, [m[1;32mversion-github[m[33m)[m
+Author: Wilmar Florez <wflorez52@gmail.com>
+Date:   Wed Jun 5 21:28:55 2019 -0500
+
+    Version portafolio en github
+
+[33mcommit 7468721fc2a574eaf8a00bfa7084f6aba613fea9[m
+Author: Wilmar Florez <31910110+wilmarFlorez@users.noreply.github.com>
+Date:   Wed Jun 5 21:26:00 2019 -0500
+
+    Initial commit
+
+[33mcommit eb8a3b409c9ec1ba41f47688cb609e81f69cd574[m[33m ([m[1;32mversion-freelance[m[33m)[m
+Author: Wilmar Florez <wflorez52@gmail.com>
+Date:   Mon May 13 12:48:03 2019 -0500
+
+    añadiendo correo electronico, como información de contacto al header
+
+[33mcommit 12c4f242efa9fcc878bbdea213ab1e93632d62db[m
+Author: Wilmar Florez <wflorez52@gmail.com>
+Date:   Wed Mar 13 11:25:53 2019 -0500
+
+    Eliminando copy de hero
+
+[33mcommit d7f1166f573b016faf6fc48477dcf7ae3ec663b9[m
+Author: Wilmar Florez <wflorez52@gmail.com>
+Date:   Sat Mar 9 18:38:53 2019 -0500
+
+    Freelance 1.0
+
+[33mcommit 5080010f34859fd0b49e2beffccf30795bb6ce98[m
+Author: Wilmar Florez <wflorez52@gmail.com>
+Date:   Sat Mar 9 10:36:46 2019 -0500
+
+    Initial commit

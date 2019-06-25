@@ -102,7 +102,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#095abe', end
 #hero p{
    font-size: 1.2em;
    line-height: 1.3em;
-   color: #0078a5;
+   color: #d2d8ff;
 }
 .personal-info {
    padding: 80px 0;
@@ -171,27 +171,29 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdd8e1', end
  }
 #hero-phone #woman {
    position: absolute;
-   left: 82px;
-   top: 155px;
+   left: 73px;
+   top: 150px;
    max-width: 65%;
-   opacity: .7;
-
+   opacity: .85;
+   z-index: 300;
   
 }
 
 #hero-phone .check-list-img {
    position: absolute;
-   top: 360px;
-   left: 140px;
-   z-index: 200;
-   width: 70px;
-   height: 70px;
+   top: 335px;
+   left: 135px;
+   z-index: 300;
+   width: 45px;
+   height: 45px;
+   
 }
 
 #hero-phone #phone{
    position: relative;
    max-width: 40%;
    z-index: 200;
+   opacity: .95;
 }
 
 a:hover{
