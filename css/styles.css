@@ -74,15 +74,15 @@ video {
    font-family: 'Josefin Sans', sans-serif;
 }
 .degraded-hero {
-   background: rgba(36,0,61,1);
-   background: -moz-linear-gradient(-45deg, rgba(36,0,61,1) 0%, rgba(36,0,61,1) 37%, rgba(3,4,33,1) 72%, rgba(3,4,33,1) 85%, rgba(3,4,33,1) 100%);
-   background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(36,0,61,1)), color-stop(37%, rgba(36,0,61,1)), color-stop(72%, rgba(3,4,33,1)), color-stop(85%, rgba(3,4,33,1)), color-stop(100%, rgba(3,4,33,1)));
-   background: -webkit-linear-gradient(-45deg, rgba(36,0,61,1) 0%, rgba(36,0,61,1) 37%, rgba(3,4,33,1) 72%, rgba(3,4,33,1) 85%, rgba(3,4,33,1) 100%);
-   background: -o-linear-gradient(-45deg, rgba(36,0,61,1) 0%, rgba(36,0,61,1) 37%, rgba(3,4,33,1) 72%, rgba(3,4,33,1) 85%, rgba(3,4,33,1) 100%);
-   background: -ms-linear-gradient(-45deg, rgba(36,0,61,1) 0%, rgba(36,0,61,1) 37%, rgba(3,4,33,1) 72%, rgba(3,4,33,1) 85%, rgba(3,4,33,1) 100%);
-   background: linear-gradient(135deg, rgba(36,0,61,1) 0%, rgba(36,0,61,1) 37%, rgba(3,4,33,1) 72%, rgba(3,4,33,1) 85%, rgba(3,4,33,1) 100%);
-   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#24003d', endColorstr='#030421', GradientType=1 );
-}
+   background: rgba(9,90,190,1);
+background: -moz-linear-gradient(-45deg, rgba(9,90,190,1) 0%, rgba(22,34,141,1) 96%, rgba(22,34,141,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(9,90,190,1)), color-stop(96%, rgba(22,34,141,1)), color-stop(100%, rgba(22,34,141,1)));
+background: -webkit-linear-gradient(-45deg, rgba(9,90,190,1) 0%, rgba(22,34,141,1) 96%, rgba(22,34,141,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(9,90,190,1) 0%, rgba(22,34,141,1) 96%, rgba(22,34,141,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(9,90,190,1) 0%, rgba(22,34,141,1) 96%, rgba(22,34,141,1) 100%);
+background: linear-gradient(135deg, rgba(9,90,190,1) 0%, rgba(22,34,141,1) 96%, rgba(22,34,141,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#095abe', endColorstr='#16228d', GradientType=1 );
+   }
 #hero{
    
    
@@ -95,7 +95,7 @@ video {
    font-size: 3.7em;
 }
 #hero span {
-   color: #0078a5;
+   color: #ffffff;
    font-size: 1.5em;
    font-weight: 600;
 }
@@ -124,16 +124,16 @@ video {
    color: #ffffff;
    z-index: 400;  
    padding: 0 10px;
-   background: rgba(251,177,195,1);
-   background: -moz-linear-gradient(left, rgba(251,177,195,1) 0%, rgba(251,177,195,0) 100%);
-   background: -webkit-gradient(left top, right top, color-stop(0%, rgba(251,177,195,1)), color-stop(100%, rgba(251,177,195,0)));
-   background: -webkit-linear-gradient(left, rgba(251,177,195,1) 0%, rgba(251,177,195,0) 100%);
-   background: -o-linear-gradient(left, rgba(251,177,195,1) 0%, rgba(251,177,195,0) 100%);
-   background: -ms-linear-gradient(left, rgba(251,177,195,1) 0%, rgba(251,177,195,0) 100%);
-   background: linear-gradient(to right, rgba(251,177,195,1) 0%, rgba(251,177,195,0) 100%);
-   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbb1c3', endColorstr='#fbb1c3', GradientType=1 );
-   
-}
+
+   background: rgba(18,155,125,1);
+background: -moz-linear-gradient(left, rgba(18,155,125,1) 0%, rgba(6,37,117,0) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(18,155,125,1)), color-stop(100%, rgba(6,37,117,0)));
+background: -webkit-linear-gradient(left, rgba(18,155,125,1) 0%, rgba(6,37,117,0) 100%);
+background: -o-linear-gradient(left, rgba(18,155,125,1) 0%, rgba(6,37,117,0) 100%);
+background: -ms-linear-gradient(left, rgba(18,155,125,1) 0%, rgba(6,37,117,0) 100%);
+background: linear-gradient(to right, rgba(18,155,125,1) 0%, rgba(6,37,117,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#129b7d', endColorstr='#062575', GradientType=1 );
+   }
 #hero #hero-phone h3 span {
  font-size: 1em;
 }
@@ -143,6 +143,7 @@ video {
    top: -44px;  
    padding: 3px;
    z-index: 100;
+
    background: rgba(253,216,225,1);
 background: -moz-linear-gradient(left, rgba(253,216,225,1) 0%, rgba(253,216,225,0) 100%);
 background: -webkit-gradient(left top, right top, color-stop(0%, rgba(253,216,225,1)), color-stop(100%, rgba(253,216,225,0)));
@@ -154,28 +155,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdd8e1', end
   }
 #hero-phone #arrow{
    max-width: 25%;
-}
-#hero-phone #woman {
-   position: absolute;
-   left: 50px;
-   top: 155px;
-   max-width: 65%;
-   opacity: .7;
 
    animation-name: moveUpDown;
-   animation-duration: 1.8s;
+   animation-duration: 1.2s;
    animation-direction: alternate;
    animation-iteration-count: infinite;
    transition-timing-function: ease-in-out;
 }
 @keyframes moveUpDown {
-   0%{
-     transform: translateY(-8px);
-   }
-    100%{
-     transform: translateY(8px);
+ 
+   100%{
+     transform: scale(1.06);
+     filter: brightness(.95);
    }
  }
+#hero-phone #woman {
+   position: absolute;
+   left: 82px;
+   top: 155px;
+   max-width: 65%;
+   opacity: .7;
+
+  
+}
+
 #hero-phone .check-list-img {
    position: absolute;
    top: 360px;
@@ -198,6 +201,9 @@ a:hover{
    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 90%, 50% 93%, 0 96%);
    clip-path: polygon        (0% 0%, 100% 0, 100% 90%, 50% 93%, 0 96%);
    border-radius: 3px;
+}
+.navbar {
+   border-bottom: 2px solid rgba(251,177,195,.1);
 }
 .navbar-light .navbar-nav .nav-link {
    color: #E5E5E5;
@@ -539,7 +545,12 @@ a:hover{
   
 
    #hero-phone .check-list-img {
-      top: 310px;
-      left: 110px;
+      top: 270px;
+      left: 70px;
+   }
+
+   #hero-phone #woman {
+      top: 150px;
+      left: 50px;
    }
 }
