@@ -131,7 +131,6 @@ video {
 
 #hero h1 {
    font-weight: 700;
-   text-align: left;
    color: #f6e499;
    letter-spacing: 1.5px;
    font-size: 3.7em;
@@ -468,6 +467,12 @@ a:hover {
 }
 
 @media (max-width: 992px) {
+   #hero {
+      text-align: center;
+   }
+   #hero-phone{
+      display: none;
+   }
    .project-phone .decoration {
       left: 35px;
    }
@@ -492,6 +497,10 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+   #navbarNav .navbar-nav .nav-link {
+      padding-bottom: 5px;
+      padding-top: 5px;
+   }
    h1 {
       font-size: 2.5em;
    }
@@ -518,9 +527,6 @@ a:hover {
    .margin {
       margin-bottom: 45px;
    }
-   .content {
-      margin-top: 30px;
-   }
    .projects {
       display: block;
    }
@@ -535,8 +541,8 @@ a:hover {
       max-width: 45%;
    }
    .cont-arrow {
-      top: -20px;
-      left: 50px;
+      top: -40px;
+      left: 250px;
    }
    #hero-phone #arrow {
       max-width: 22%;
@@ -603,7 +609,21 @@ a:hover {
    }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 425px) {  
+   #hero span {
+      font-size: 1.2em;
+   } 
+   .content {
+      margin-top: 25px;
+      margin-bottom: 25px;
+   }
+   #hero p {
+      font-size: 1em;
+   }
+   #navbarNav .navbar-nav .nav-link {
+      padding-bottom: 3px;
+      padding-top: 3px;
+   }
    #hero-phone .check-list-img {
       top: 270px;
       left: 70px;
