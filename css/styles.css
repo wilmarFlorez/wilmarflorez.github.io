@@ -2,10 +2,11 @@
 
 @font-face {
    font-family: 'icomoon';
-   src: url('../fonts/icomoon.eot?ffeut4');
-   src: url('../fonts/icomoon.eot?ffeut4#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?ffeut4') format('truetype'), url('../fonts/icomoon.woff?ffeut4') format('woff'), url('../fonts/icomoon.svg?ffeut4#icomoon') format('svg');
+   src: url('../fonts/icomoon.eot?acrvpg');
+   src: url('../fonts/icomoon.eot?acrvpg#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?acrvpg') format('truetype'), url('../fonts/icomoon.woff?acrvpg') format('woff'), url('../fonts/icomoon.svg?acrvpg#icomoon') format('svg');
    font-weight: normal;
    font-style: normal;
+   font-display: block;
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -22,8 +23,40 @@
    -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-phone:before {
+   content: "\e942";
+}
+
+.icon-mail:before {
+   content: "\e945";
+}
+
+.icon-mobile:before {
+   content: "\e958";
+}
+
+.icon-menu:before {
+   content: "\e9bd";
+}
+
+.icon-circle-right:before {
+   content: "\ea42";
+}
+
+.icon-circle-left:before {
+   content: "\ea44";
+}
+
+.icon-whatsapp:before {
+   content: "\ea93";
+}
+
 .icon-twitter:before {
    content: "\ea96";
+}
+
+.icon-github:before {
+   content: "\eab0";
 }
 
 .icon-linkedin:before {
@@ -358,9 +391,9 @@ a:hover {
    border: 1px solid #855224;
    width: 30px;
    height: 30px;
-   -webkit-box-shadow: 0px 3px 9px 1px rgba(0, 0, 0,.5);
-   -moz-box-shadow: 0px 3px 9px 1px rgba(0, 0, 0,.5);
-   box-shadow: 0px 3px 9px 1px rgba(0, 0, 0,.5);
+   -webkit-box-shadow: 0px 3px 9px 1px rgba(0, 0, 0, .5);
+   -moz-box-shadow: 0px 3px 9px 1px rgba(0, 0, 0, .5);
+   box-shadow: 0px 3px 9px 1px rgba(0, 0, 0, .5);
 }
 
 .carousel-control-next-icon {
@@ -369,9 +402,9 @@ a:hover {
    border: 1px solid #855224;
    width: 30px;
    height: 30px;
-   -webkit-box-shadow: 0px 3px 9px 1px rgba(0, 0, 0,.5);
-   -moz-box-shadow: 0px 3px 9px 1px rgba(0, 0, 0,.5);
-   box-shadow: 0px 3px 9px 1px rgba(0, 0, 0,.5);
+   -webkit-box-shadow: 0px 3px 9px 1px rgba(0, 0, 0, .5);
+   -moz-box-shadow: 0px 3px 9px 1px rgba(0, 0, 0, .5);
+   box-shadow: 0px 3px 9px 1px rgba(0, 0, 0, .5);
 }
 
 /* fin slide */
