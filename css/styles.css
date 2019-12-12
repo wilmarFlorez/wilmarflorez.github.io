@@ -75,7 +75,6 @@ h1 {
 }
 
 h2 {
-   padding: 15px;
    font-size: 1.4em;
    letter-spacing: .3em;
    font-weight: 700;
@@ -129,11 +128,20 @@ video {
    /* ie6-9 */
 }
 
+#hero {
+   min-height: 100vh;
+}
+
 #hero h1 {
    font-weight: 700;
    color: #f6e499;
    letter-spacing: 1.5px;
    font-size: 3.7em;
+}
+#hero h2 {
+   color: #f6e499;
+   letter-spacing: 1.5px;
+   font-size: 3em;
 }
 
 #hero span {
@@ -430,6 +438,10 @@ a:hover {
    margin-top: 70px;
    padding-top: 80px;
    letter-spacing: .06em;
+   position: relative;
+   left: 0;
+   right: 0;
+   bottom: 0;
 }
 
 .footer .col {
@@ -557,6 +569,9 @@ a:hover {
 
 @media (max-width: 576px) {
    #hero h1 {
+      font-size: 2em;
+   }
+   #hero h2 {
       font-size: 2em;
    }
    #hero-phone h3 {

@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="./assets/styles/index.css">
+
+  <title>Contacto</title>
+</head>
+
+<body>
+  <div class="background contact">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand logo-responsive" href="/"><img src="./assets/statics/Logo_CarArmoring_Inicio.png"
+            alt="Logo Car Armoring"></a>
+        <button id="burger-menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-lg-center" id="navbarNavAltMarkup ">
+          <div class="navbar-nav" id="navbar-nav">
+
+            <a class="navbar-brand logo-responsive  align-self-center" href="/"><img
+                src="./assets/statics/Logo_CarArmoring_Inicio.png" alt="Logo Car Armoring"></a>
+
+            <a class="nav-item nav-link align-self-lg-center" href="/nosotros.html">Nosotros <span
+                class="sr-only">(current)</span></a>
+            <div class="divider align-self-lg-center"></div>
+            <li class="nav-item dropdown align-self-lg-center">
+              <a class="nav-link dropdown-toggle align-self-center" href="#" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Blindaje
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/blindaje/introduccion.html">Introducción al blindaje</a>
+                <a class="dropdown-item" href="/blindaje/ventajas.html">Ventajas</a>
+              </div>
+            </li>
+            <div class="divider align-self-lg-center"></div>
+            <a class="nav-item nav-link align-self-lg-center" href="/proyectos-especiales.html">Proyectos
+              especiales</a>
+            <a class="navbar-brand align-self-center" href="/"><img src="./assets/statics/Logo_CarArmoring_Inicio.png"
+                alt="Logo Car Armoring"></a>
+            <a class="nav-item nav-link align-self-lg-center" href="/balizaje.html">Balizaje</a>
+            <div class="divider align-self-lg-center"></div>
+            <a class="nav-item nav-link align-self-lg-center" href="/mantenimiento.html">Mantenimiento</a>
+            <div class="divider align-self-lg-center"></div>
+            <a class="nav-item nav-link active align-self-lg-center" href="/contacto.html">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <header class="row d-flex justify-content-center">
+        <img class="align-self-center" src="./assets/statics/contacto.png" alt="">
+        <h1 class="align-self-center title"><span class="txt-type" data-words='["Contacto"]'></span><span
+            class="coursor"></span></h1>
+      </header>
+      <div class="row form-map">
+        <div class="col-lg-6">
+          <section class="form-contact">
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-12">
+                <form action="php/enviaMensaje.php" id="form" method="POST" accept-charset="utf8">
+                  <div class="form-group">
+                    <label for="nombre">Nombre completo</label>
+                    <input class="form-control" type="text" name="nombre" required="requiered">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input class="form-control" type="email" name="email" required="requiered">
+                  </div>
+                  <div class="form-row">
+                    <div class="col-sm-12 form-group col-md-6">
+                      <label for="telefono">Teléfono</label>
+                      <input class="form-control" name="telefono" type="phone">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="compania">Compañía</label>
+                      <input class="form-control" name="compania" type="text">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="mensaje">Comentarios</label>
+                    <textarea class="form-control text-area" name="mensaje" cols="32" rows="8"
+                      aria-invalid="false"></textarea>
+                  </div>
+                  <div class="d-flex justify-content-end">
+                    <input class="col-sm-12 col-md-1 col-lg-2 form-btn" type="submit" value="Enviar" />
+                  </div>
+
+                </form>
+              </div>
+          </section>
+        </div>
+        <div class="col-lg-6">
+          <iframe class="location-map"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6728.467756229367!2d-116.97838999999999!3d32.5199!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d947e46ee6a8d1%3A0x4a770cee85b3efc6!2sCalle%20Ing.%20Juan%20Ojeda%20Robles%2013606%2C%20Buena%20Vista%2C%2022415%20Tijuana%2C%20B.C.!5e0!3m2!1ses!2smx!4v1572407856530!5m2!1ses!2smx"
+            frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+      </div>
+
+      <footer class="text-center">
+        <p class="info">Ing. Juan Ojeda Robles # 13606 Col Buena Vista, Tijuana, Baja California 22415</p>
+        <p class="contact">
+          <span>T.(664) 624-9235</span>
+          <span>(664) 624-9236</span>
+          <span>albertor@cararmoring.mx</span>
+        </p>
+
+        <div class="row">
+          <div class="col-1">
+            <a href="">
+              <img src="./assets/statics/icono_facebook.png" class="social facebok" alt="Facebook">
+            </a>
+          </div>
+          <div class="col-md-10">
+            <p class="description">Sin duda nos atrevemos a decir que somos la mejor opción, nuestro gran equipo de
+              profesionales va siempre a la vanguardia. <br>Certificados ISO 9001 2015</p>
+            <p class="copy">Grupo Armor © 2019 | Aviso de Privacidad</p>
+          </div>
+
+          <div class="col-1">
+            <a href="">
+              <img src="./assets/statics/Icono_Instagram.png" class="social instagram" alt="Instagram">
+            </a>
+          </div>
+
+        </div>
+        <div class="row sociales-responsive">
+          <a href="">
+            <img src="./assets/statics/icono_facebook.png" class="social-responsive facebok" alt="Facebook">
+          </a>
+          <a href="">
+            <img src="./assets/statics/Icono_Instagram.png" class="social-responsive instagram" alt="Instagram">
+          </a>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <a href="" class="whatsapp">
+    <img src="/assets/statics/whatsapp.png" alt="">
+    <span>Contactanos</span>
+  </a>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="/assets/scripts/index.js"></script>
+</body>
+
+</html>
